@@ -1,0 +1,79 @@
+/*
+ Theme Name:   Newsbd24 Child
+ Theme URI:    https://github.com/html-css-js-exercices/tp-wordpress
+ Description:  Newsbd24 Child Theme
+ Author:       Vincent ESTEVES
+ Author URI:   https://www.linkedin.com/in/vincent-esteves/
+ Template:     newsbd24
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  newsbd24-child
+*/
+
+
+
+/*Needed after menu top moved up on site title side*/
+
+.site-section {
+    padding: 2rem 0;
+}
+
+
+h3.widget-title span,
+.loop-prev-next a,
+.blog-media a:after{
+	background: #dd3333;
+    /* Safari */
+	color: #fff;
+}
+
+
+/*blog*/
+span.byline, .comments-link {
+    display: none;
+}
+
+
+label span,
+.about-desc span,
+.old-price,
+.welcome-box p a,
+.blog-list-widget .mb-1:hover,
+.btn-primary,
+.cat-title,
+.cat__link__wrp a,
+.blog-meta a,
+.social a:hover,
+.category-widget li:hover a,
+a:hover,
+.form-wrapper .clearfix a,
+a:focus,
+.sitemap-wrapper small,
+.shop-desc small,
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .active > .nav-link,
+.navbar-inverse .navbar-nav .nav-link.active,
+.navbar-inverse .navbar-nav .nav-link.open,
+.navbar-inverse .navbar-nav .open > .nav-link,
+h4.entry-title a:hover{
+	color: #dd3333;
+}
+
+
+.gird_list a.ata_media:after,
+.ata_grids_style_fly ul.post-categories a,
+.owl-theme .owl-nav [class*='owl-']:hover,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.single_post_category a:hover {
+	background: #dd3333!important;
+}
+
+.ata_grids_style_fly .gird_list h4, .ata_grids_style_fly .gird_list h4 a:hover, .ata_grids_style_fly .gird_list .ata_meta li a:hover, .ata_posts_slider_loader .owl-nav [class*='owl-'], .ata_posts_slider_loader .owl-nav [class*='owl-']:hover, .ata_news_hero_block h5 a:hover {
+    color: #90b695;
+	color: #dd3333!important;
+	display: none;
+}
