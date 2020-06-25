@@ -63,7 +63,13 @@ if( !function_exists('newsbd24_header_part_2nd_child') ){
 						?>
 					</div>
 					<div class="col-8 col-sm-8 p-2">
-
+						<div class="col-lg-12 alert alert-warning">This is a demo website for <a href="https://github.com/html-css-js-exercices/tp-wordpress" class="link">tp-wordpress</a> repository. I used this youtube channel coz im a fan.<br>
+						<div class="useless">
+							No other purposes matter.<br>
+							It have been made within 1 day and for free<br>
+							Free hosting used, so it might be slow...
+						</div>
+					</div>
 		                <nav class="navbar navbar-light navbar-toggleable-md pull-right">
 		                    <div class="collapse navbar-collapse justify-content-end" id="matildamenu" role="main-menu">
 
