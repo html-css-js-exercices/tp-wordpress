@@ -77,3 +77,39 @@ h4.entry-title a:hover{
 	color: #dd3333!important;
 	display: none;
 }
+
+.panel-grid-cell .cat-item a {
+    font-size: 45px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.panel-grid-cell .cat-item a:hover{
+	text-decoration: underline!important;
+	text-decoration-color: #dd3333!important;
+}
+
+.panel-grid-cell h3.widget-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-position: 0px 60px;
+}
+
+::selection {
+    color: black;
+    background: #dd3333;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #dd3333;
+    color: #fff;
+}
+
+.logo h1 a{
+    color: #dd3333;
+}
+.news_list li a{
+    color: black;
+}
